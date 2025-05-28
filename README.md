@@ -4,7 +4,7 @@ This example demonstrates how to use Clarity to parse Bitcoin transactions and b
 
 ## Know your Contract
 
-The [clarity-bitcoin.clar](/examples/clarity-bitcoin/contracts/clarity-bitcoin.clar) contract includes the following functionality.
+The [clarity-bitcoin.clar](/contracts/clarity-bitcoin.clar) contract includes the following functionality.
 
 - `parse-tx (..)` function dives into how to parse a Bitcoin transaction and the expected return type for your use in your business logic
 - `verify-block-header (...)` function unpacks the nuances of verifying a block header for a given block height
